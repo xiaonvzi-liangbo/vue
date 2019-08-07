@@ -1,0 +1,19 @@
+a {
+	text-decoration: none;
+}
+
+* {
+	margin: 0;
+}
+body{
+  background-color: #9f9f9f;
+}
+.el-header{
+
+    background-color: #1E88E5;
+    color: #fff;
+   /*  text-align: center; */
+    line-height: 64px;
+    box-shadow:0px 0px 10px 2px #999 ;
+/*这6个值分别是：left值 、top值、透明度、阴影外延宽度、颜色、向里凹陷（选填，默认为外延）*/
+  }
