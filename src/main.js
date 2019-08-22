@@ -11,6 +11,14 @@ import VueBus from 'vue-bus';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
+/* 引入地市组件 */
+import VDistpicker from 'v-distpicker'
+Vue.component('v-distpicker', VDistpicker)
+/* 引入aixos */
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
+Vue.use(VueAxios, axios)
 
 
 Vue.use(VueRouter);// 通过Vue的use方法注入VueRouter

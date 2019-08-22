@@ -6,7 +6,7 @@
       <el-input v-model="input1" placeholder="请输入内容"></el-input>
       <i class="el-icon-s-goods"></i>
       <el-input placeholder="请输入密码" v-model="input2" show-password></el-input>
-      <el-button @click="back" type="primary" >登录</el-button>
+      <el-button class="butlog" @click="back" type="primary" >登录</el-button>
     </div>
     <p id="foot">© 2016 pay_xiamen www.lll201905.com All rights reserved</p>
   </div>
@@ -58,7 +58,7 @@ export default {
   margin-top: 50px;
   border: 0px;
 }
-.el-button {
+.butlog {
   margin: 20px 0;
   background-color: #1e88e5;
 }
